@@ -1,0 +1,451 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+.wrapper
+{
+    width: 1400px;
+    margin:auto;
+}
+header
+{
+   background: url(bg2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+.nav-area li{
+    display:inline-block;
+     border-radius: 8px;
+    border:1px solid aqua;
+    transition: all 0.2s ease;
+}
+.nav-area li a {
+    color:#f9004;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:poppins;
+    font-size: 18px;
+    background: aqua;
+    border-radius: 8px;
+}
+.nav-area li a:hover{
+     display: inline-block;
+    background: aqua;
+    color:maroon;
+     border-radius: 8px;
+
+}
+.logo img
+{
+    width: 150px;
+    float:left;
+   margin: auto;
+}
+.welcome{
+    position:absolute;
+    width: 1500px;
+    height: 150px;
+    margin: 20% 5%;
+}
+.welcome h1
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-left: 200px;
+    padding-bottom: 1px;
+}
+.welcome a
+{
+    display: inline-block;
+    background:aqua;
+    padding: 10px 55px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 400px;
+    border-radius: 6px;
+    border:2px solid aqua;
+    transition: all 0.3s ease;
+}
+.welcome a:hover{
+    color: darkgreen;
+    background:aqua;
+    display: inline-block;
+}
+.home
+{
+    width: 100%;
+}
+.content{
+    float: left;
+    width: 55%;
+    padding-left: 20px;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 90%;
+    height: 400px;
+}
+.content .article h3{
+    color:navy;
+    font-size: 18px;
+}
+.content .article p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+.content .article .button{
+    margin-top: 50px;
+}
+.content .article .button a{
+    text-decoration: none;
+    padding: 6px 20px;
+    background-color: aqua;
+    border-radius: 40px;
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.content .article .button a:hover{
+    color: #fff;
+    background-color: purple;
+    transition: 1s ease;
+}
+.table{
+   margin-left: 30px;
+}
+.register{
+    color: aqua;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#05073a,purple,#05073a);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.master{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 25px;
+    background: linear-gradient(#05073a,purple,#05073a);
+    
+}
+.master .heading{
+    font-size: 25px;
+    font-weight: 500;
+    position:relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.master .heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#05073a,purple,#05073a);
+}
+.master form .card-details{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .card-details .card-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.card-details .card-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card-details .card-box input{
+height: 45px;
+width: 100%;
+outline: none;
+border: 1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+    border-color: #9b59b6;
+}
+form .circal-form .circal-title{
+    font-size:20px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+}
+form .circal-form .category{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .buton{
+    text-align: center;
+}
+form .buton input{
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    color:#333;
+    font-weight: 500;
+    border-radius: 5px;
+    background: aqua;
+    letter-spacing: 1px;
+    width:30%;
+}
+form .buton input:hover{
+    background: purple;
+}
+.log{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url("lbg2.jpeg") ;
+    box-sizing: border-box;
+    width: 210vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 10%;
+    color: #fff;
+}
+.login-form h1
+{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: aquamarine;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+.media{
+    max-width: 1500px;
+    margin:auto;
+   background-image:url("lbg4.jpeg") ;
+    box-sizing: border-box;
+    width: 210vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+}
+.gallery{
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border: 3px solid aqua;
+    float: left;
+    width: 380px;
+  
+}
+.gallery img{
+    width: 100%;
+    height: 220px;
+}
+.desc{
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    font-weight: 300;
+}
+.social .main h1{
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+}
+.about{
+     max-width: 1500px;
+    margin:auto;
+   background-image:url("th.jpeg") ;
+    box-sizing: border-box;
+    width: 210vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+}
+.catalogue h1{
+    color:purple;
+    font-size: 70px;
+    text-align: center;
+}
+.about img{
+    margin-top: 30px;
+}
+.about h2{
+    margin: 30px;
+}
+.about .abouts{
+    margin: 30px;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("bg3.jpeg");
+    background-size: cover;
+    
+}
+.contact .contain{
+    max-width: 1000px;
+    text-align: center;
+    margin: 30px;
+}
+.contact .contain h2{
+    font-size: 46px;
+    font-weight: 500;
+    color: aqua;
+    text-align: center;
+}
+.con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.con .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.con .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 26px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 500;
+}
+.con .contactinfo .box .text h3{
+    font-weight: 500;
+    color: aqua;
+}
+.contactform{
+ width: 30%;
+    padding: 50px;
+    background: aqua;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    
+}
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputBox input span{
+    position:absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+    
+}
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+    background: aqua;
+}
+.contact{
+    min-height: 100vh;
+}
+.sticky-footer{
+    list-style: none;  
+}
+.sticky-footer li{
+     display:inline-block;
+
+    transition: all 0.2s ease;
+}
+.sticky-footer li a{
+    color:#f9004;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:poppins;
+    font-size: 18px;
+}
+.sticky-footer ul{
+  text-align: center;
+}
+.sticky-footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
